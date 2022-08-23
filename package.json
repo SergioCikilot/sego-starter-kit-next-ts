@@ -1,7 +1,11 @@
 {
   "name": "sego-starter-kit-next-ts",
   "version": "0.1.0",
+  "description": "Sego frontend starter pack",
   "private": true,
+  "bin": {
+    "sego-starter-kit-next-ts": "bin/generate-app.js"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -9,12 +13,25 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@chakra-ui/icons": "^2.0.8",
+    "@chakra-ui/react": "^2.2.8",
+    "@emotion/react": "^11.10.0",
+    "@emotion/styled": "^11.10.0",
+    "axios": "^0.27.2",
+    "dotenv": "^16.0.1",
+    "framer-motion": "^6.5.1",
+    "jwt-decode": "^3.1.2",
     "next": "12.2.5",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-icons": "^4.4.0"
   },
   "devDependencies": {
+    "@types/node": "18.7.8",
+    "@types/react": "18.0.17",
+    "@types/react-dom": "18.0.6",
     "eslint": "8.22.0",
-    "eslint-config-next": "12.2.5"
+    "eslint-config-next": "12.2.5",
+    "typescript": "4.7.4"
   }
 }

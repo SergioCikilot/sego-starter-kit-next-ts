@@ -1,0 +1,2 @@
+//cors config vs
+export {};
