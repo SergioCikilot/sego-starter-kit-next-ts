@@ -2,7 +2,6 @@
   "name": "sego-starter-kit-next-ts",
   "version": "0.1.0",
   "description": "Sego frontend starter pack",
-  "private": true,
   "bin": {
     "sego-starter-kit-next-ts": "bin/generate-app.js"
   },
